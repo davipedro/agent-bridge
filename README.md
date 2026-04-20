@@ -19,8 +19,15 @@ Supports two modes:
 
 ## Install
 
+**Via `npx skills`:**
 ```bash
 npx skills add davipedro/agent-bridge
+```
+
+**Via Claude Code plugin marketplace:**
+```
+/plugin marketplace add davipedro/agent-bridge
+/plugin install agent-bridge@agent-bridge
 ```
 
 Or copy `skills/agent-bridge/` into your project's `.claude/skills/` directory.
