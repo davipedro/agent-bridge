@@ -1,0 +1,14 @@
+{
+  "name": "agent-bridge",
+  "description": "The bridge across agents — delegate tasks to another AI agent running headless.",
+  "owner": {
+    "name": "davipedro"
+  },
+  "plugins": [
+    {
+      "name": "agent-bridge",
+      "source": "./skills/agent-bridge",
+      "description": "Delegate a task to another AI agent (Claude Code or Gemini CLI) running headless. Use when you need a second agent to handle a subtask, get a second opinion, or parallelize work across harnesses."
+    }
+  ]
+}
